@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52B0B1C921B4D7BF005FE84A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B0B1C821B4D7BF005FE84A /* AppDelegate.swift */; };
+		52B0B1CB21B4D7BF005FE84A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B0B1CA21B4D7BF005FE84A /* ViewController.swift */; };
+		52B0B1CE21B4D7BF005FE84A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B0B1CC21B4D7BF005FE84A /* Main.storyboard */; };
+		52B0B1D021B4D7C0005FE84A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B0B1CF21B4D7C0005FE84A /* Assets.xcassets */; };
+		52B0B1D321B4D7C0005FE84A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B0B1D121B4D7C0005FE84A /* LaunchScreen.storyboard */; };
+		52B0B1DE21B4D7C0005FE84A /* Where_is_Teji_sTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B0B1DD21B4D7C0005FE84A /* Where_is_Teji_sTests.swift */; };
+		52B0B1E921B4D7C0005FE84A /* Where_is_Teji_sUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B0B1E821B4D7C0005FE84A /* Where_is_Teji_sUITests.swift */; };
+		52B0B1F721B4D7F0005FE84A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52B0B1F621B4D7F0005FE84A /* GoogleService-Info.plist */; };
+		52B0B1FA21B4D985005FE84A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B0B1F921B4D985005FE84A /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52B0B1DA21B4D7C0005FE84A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52B0B1BD21B4D7BF005FE84A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B0B1C421B4D7BF005FE84A;
+			remoteInfo = "Where is Teji's";
+		};
+		52B0B1E521B4D7C0005FE84A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52B0B1BD21B4D7BF005FE84A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B0B1C421B4D7BF005FE84A;
+			remoteInfo = "Where is Teji's";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52B0B1C521B4D7BF005FE84A /* Where is Teji's.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Where is Teji's.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B0B1C821B4D7BF005FE84A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52B0B1CA21B4D7BF005FE84A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52B0B1CD21B4D7BF005FE84A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52B0B1CF21B4D7C0005FE84A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52B0B1D221B4D7C0005FE84A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52B0B1D421B4D7C0005FE84A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B0B1D921B4D7C0005FE84A /* Where is Teji'sTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Where is Teji'sTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B0B1DD21B4D7C0005FE84A /* Where_is_Teji_sTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Where_is_Teji_sTests.swift; sourceTree = "<group>"; };
+		52B0B1DF21B4D7C0005FE84A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B0B1E421B4D7C0005FE84A /* Where is Teji'sUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Where is Teji'sUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B0B1E821B4D7C0005FE84A /* Where_is_Teji_sUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Where_is_Teji_sUITests.swift; sourceTree = "<group>"; };
+		52B0B1EA21B4D7C0005FE84A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B0B1F621B4D7F0005FE84A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		52B0B1F921B4D985005FE84A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52B0B1C221B4D7BF005FE84A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B0B1FA21B4D985005FE84A /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B0B1D621B4D7C0005FE84A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B0B1E121B4D7C0005FE84A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52B0B1BC21B4D7BF005FE84A = {
+			isa = PBXGroup;
+			children = (
+				52B0B1F621B4D7F0005FE84A /* GoogleService-Info.plist */,
+				52B0B1C721B4D7BF005FE84A /* Where is Teji's */,
+				52B0B1DC21B4D7C0005FE84A /* Where is Teji'sTests */,
+				52B0B1E721B4D7C0005FE84A /* Where is Teji'sUITests */,
+				52B0B1C621B4D7BF005FE84A /* Products */,
+				52B0B1F821B4D985005FE84A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52B0B1C621B4D7BF005FE84A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52B0B1C521B4D7BF005FE84A /* Where is Teji's.app */,
+				52B0B1D921B4D7C0005FE84A /* Where is Teji'sTests.xctest */,
+				52B0B1E421B4D7C0005FE84A /* Where is Teji'sUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52B0B1C721B4D7BF005FE84A /* Where is Teji's */ = {
+			isa = PBXGroup;
+			children = (
+				52B0B1C821B4D7BF005FE84A /* AppDelegate.swift */,
+				52B0B1CA21B4D7BF005FE84A /* ViewController.swift */,
+				52B0B1CC21B4D7BF005FE84A /* Main.storyboard */,
+				52B0B1CF21B4D7C0005FE84A /* Assets.xcassets */,
+				52B0B1D121B4D7C0005FE84A /* LaunchScreen.storyboard */,
+				52B0B1D421B4D7C0005FE84A /* Info.plist */,
+			);
+			path = "Where is Teji's";
+			sourceTree = "<group>";
+		};
+		52B0B1DC21B4D7C0005FE84A /* Where is Teji'sTests */ = {
+			isa = PBXGroup;
+			children = (
+				52B0B1DD21B4D7C0005FE84A /* Where_is_Teji_sTests.swift */,
+				52B0B1DF21B4D7C0005FE84A /* Info.plist */,
+			);
+			path = "Where is Teji'sTests";
+			sourceTree = "<group>";
+		};
+		52B0B1E721B4D7C0005FE84A /* Where is Teji'sUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52B0B1E821B4D7C0005FE84A /* Where_is_Teji_sUITests.swift */,
+				52B0B1EA21B4D7C0005FE84A /* Info.plist */,
+			);
+			path = "Where is Teji'sUITests";
+			sourceTree = "<group>";
+		};
+		52B0B1F821B4D985005FE84A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52B0B1F921B4D985005FE84A /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52B0B1C421B4D7BF005FE84A /* Where is Teji's */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B0B1ED21B4D7C0005FE84A /* Build configuration list for PBXNativeTarget "Where is Teji's" */;
+			buildPhases = (
+				52B0B1C121B4D7BF005FE84A /* Sources */,
+				52B0B1C221B4D7BF005FE84A /* Frameworks */,
+				52B0B1C321B4D7BF005FE84A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Where is Teji's";
+			productName = "Where is Teji's";
+			productReference = 52B0B1C521B4D7BF005FE84A /* Where is Teji's.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52B0B1D821B4D7C0005FE84A /* Where is Teji'sTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B0B1F021B4D7C0005FE84A /* Build configuration list for PBXNativeTarget "Where is Teji'sTests" */;
+			buildPhases = (
+				52B0B1D521B4D7C0005FE84A /* Sources */,
+				52B0B1D621B4D7C0005FE84A /* Frameworks */,
+				52B0B1D721B4D7C0005FE84A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52B0B1DB21B4D7C0005FE84A /* PBXTargetDependency */,
+			);
+			name = "Where is Teji'sTests";
+			productName = "Where is Teji'sTests";
+			productReference = 52B0B1D921B4D7C0005FE84A /* Where is Teji'sTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52B0B1E321B4D7C0005FE84A /* Where is Teji'sUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B0B1F321B4D7C0005FE84A /* Build configuration list for PBXNativeTarget "Where is Teji'sUITests" */;
+			buildPhases = (
+				52B0B1E021B4D7C0005FE84A /* Sources */,
+				52B0B1E121B4D7C0005FE84A /* Frameworks */,
+				52B0B1E221B4D7C0005FE84A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52B0B1E621B4D7C0005FE84A /* PBXTargetDependency */,
+			);
+			name = "Where is Teji'sUITests";
+			productName = "Where is Teji'sUITests";
+			productReference = 52B0B1E421B4D7C0005FE84A /* Where is Teji'sUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52B0B1BD21B4D7BF005FE84A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Stoyanov, Jennifer N";
+				TargetAttributes = {
+					52B0B1C421B4D7BF005FE84A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					52B0B1D821B4D7C0005FE84A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 52B0B1C421B4D7BF005FE84A;
+					};
+					52B0B1E321B4D7C0005FE84A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 52B0B1C421B4D7BF005FE84A;
+					};
+				};
+			};
+			buildConfigurationList = 52B0B1C021B4D7BF005FE84A /* Build configuration list for PBXProject "Where is Teji's" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52B0B1BC21B4D7BF005FE84A;
+			productRefGroup = 52B0B1C621B4D7BF005FE84A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52B0B1C421B4D7BF005FE84A /* Where is Teji's */,
+				52B0B1D821B4D7C0005FE84A /* Where is Teji'sTests */,
+				52B0B1E321B4D7C0005FE84A /* Where is Teji'sUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52B0B1C321B4D7BF005FE84A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B0B1D321B4D7C0005FE84A /* LaunchScreen.storyboard in Resources */,
+				52B0B1F721B4D7F0005FE84A /* GoogleService-Info.plist in Resources */,
+				52B0B1D021B4D7C0005FE84A /* Assets.xcassets in Resources */,
+				52B0B1CE21B4D7BF005FE84A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B0B1D721B4D7C0005FE84A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B0B1E221B4D7C0005FE84A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52B0B1C121B4D7BF005FE84A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B0B1CB21B4D7BF005FE84A /* ViewController.swift in Sources */,
+				52B0B1C921B4D7BF005FE84A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B0B1D521B4D7C0005FE84A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B0B1DE21B4D7C0005FE84A /* Where_is_Teji_sTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B0B1E021B4D7C0005FE84A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B0B1E921B4D7C0005FE84A /* Where_is_Teji_sUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52B0B1DB21B4D7C0005FE84A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52B0B1C421B4D7BF005FE84A /* Where is Teji's */;
+			targetProxy = 52B0B1DA21B4D7C0005FE84A /* PBXContainerItemProxy */;
+		};
+		52B0B1E621B4D7C0005FE84A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52B0B1C421B4D7BF005FE84A /* Where is Teji's */;
+			targetProxy = 52B0B1E521B4D7C0005FE84A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52B0B1CC21B4D7BF005FE84A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52B0B1CD21B4D7BF005FE84A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52B0B1D121B4D7C0005FE84A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52B0B1D221B4D7C0005FE84A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52B0B1EB21B4D7C0005FE84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52B0B1EC21B4D7C0005FE84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52B0B1EE21B4D7C0005FE84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Where is Teji's/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "utexas.edu.Where-is-Teji-s";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52B0B1EF21B4D7C0005FE84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Where is Teji's/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "utexas.edu.Where-is-Teji-s";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52B0B1F121B4D7C0005FE84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Where is Teji'sTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "utexas.edu.Where-is-Teji-sTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Where is Teji's.app/Where is Teji's";
+			};
+			name = Debug;
+		};
+		52B0B1F221B4D7C0005FE84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Where is Teji'sTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "utexas.edu.Where-is-Teji-sTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Where is Teji's.app/Where is Teji's";
+			};
+			name = Release;
+		};
+		52B0B1F421B4D7C0005FE84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Where is Teji'sUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "utexas.edu.Where-is-Teji-sUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Where is Teji's";
+			};
+			name = Debug;
+		};
+		52B0B1F521B4D7C0005FE84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Where is Teji'sUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "utexas.edu.Where-is-Teji-sUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Where is Teji's";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52B0B1C021B4D7BF005FE84A /* Build configuration list for PBXProject "Where is Teji's" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B0B1EB21B4D7C0005FE84A /* Debug */,
+				52B0B1EC21B4D7C0005FE84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B0B1ED21B4D7C0005FE84A /* Build configuration list for PBXNativeTarget "Where is Teji's" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B0B1EE21B4D7C0005FE84A /* Debug */,
+				52B0B1EF21B4D7C0005FE84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B0B1F021B4D7C0005FE84A /* Build configuration list for PBXNativeTarget "Where is Teji'sTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B0B1F121B4D7C0005FE84A /* Debug */,
+				52B0B1F221B4D7C0005FE84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B0B1F321B4D7C0005FE84A /* Build configuration list for PBXNativeTarget "Where is Teji'sUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B0B1F421B4D7C0005FE84A /* Debug */,
+				52B0B1F521B4D7C0005FE84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52B0B1BD21B4D7BF005FE84A /* Project object */;
+}
